@@ -1,0 +1,17 @@
+{
+  "name": "sample-node-js-app",
+  "version": "1.0.0",
+  "description": "This app is being deployed on kind cluster",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Mahira",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }  
+}
