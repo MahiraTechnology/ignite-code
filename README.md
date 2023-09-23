@@ -45,8 +45,5 @@ Feel free to customize and extend this guide to meet your specific requirements 
 ##  Nodejs app 
 kubectl port-forward deployment/nodejs-app 8080:8080
 
-## grafana
-kubectl port-forward -n default svc/kube-prometheus-grafana 8080:80
-
 ## promethesus stack
 kubectl port-forward -n default svc/kube-prometheus-kube-prome-prometheus 9090:9090
